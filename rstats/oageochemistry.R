@@ -18,7 +18,7 @@ data <- read_excel("data.xlsx")
 
 ## memeriksa data 
 
-
+dim(data) # dimensi data 
 
 
 
