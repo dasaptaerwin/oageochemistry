@@ -5,18 +5,19 @@ setwd("~/Downloads/oageochemistry/rstats")
 # install library (lakukan bila belum pernah menginstalasi)
 
 install.packages("tidyverse")
+install.packages("readxl")
 
 # load library
 
 library(tidyverse)
+library(readxl)
 
 # load data
 
-data <- read.table("data.csv", header=TRUE)
-
-
+data <- read_excel("data.xlsx")
 
 ## memeriksa data 
+
 
 
 
